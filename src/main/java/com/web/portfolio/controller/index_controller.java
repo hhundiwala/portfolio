@@ -12,6 +12,8 @@ public class index_controller {
         return "profile";
     }
 
+    //I am adding this method just check the mapping of URL
+
     @RequestMapping("/more_info")
     public String more_info() {
         return "more_info";
